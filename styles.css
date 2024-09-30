@@ -146,7 +146,7 @@ a:hover {
 
 
 .btn-primary:hover {
-    background-color: var(--color-primary);
+    background-color: #4547b0;
     color: var(--color-white);
     text-decoration: none;
 }
@@ -623,6 +623,12 @@ box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(
     gap: 8px;
 }
 
+.btn-secondary:hover {
+    background-color: #4547b0;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
 /* Features Section */
 .features {
     padding: 80px 0;
@@ -1020,6 +1026,13 @@ box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(
     font-style: normal;
     height: 52px;
 
+}
+
+
+#subscibe-btn:hover {
+    background-color: #4547b0;
+    color: var(--color-white);
+    cursor: pointer;
 }
 
 /* Footer Section */
