@@ -20,6 +20,7 @@ Jag försökte göra en dark mode för sidan, men det var svårare än jag trodd
 
 ## Hjälp jag fick
 Min kusin hjälpte mig med JavaScript-koden för FAQ-sektionen. Det var bra att lära sig hur man kan göra sidor mer interaktiva med JavaScript.
+Tack till Hans för hjälp med Brands och Navbar i början av kursen.
 
 ## Vad jag har lärt mig
 - Hur man går från en design till en färdig hemsida
@@ -36,8 +37,9 @@ Min kusin hjälpte mig med JavaScript-koden för FAQ-sektionen. Det var bra att 
 
 ## Tack till
 - Mina lärare som gav oss Figma-designen och hjälpte under projektet
+- Extra tack till Hans för vägledning när det kom till Brands och Navbar sektionerna i början av kursen.
 - Min kusin som hjälpte mig med JavaScript för FAQ-delen
-
+- Claude AI för Dark Mode funktionen i Javascript.
 ---
 
 Det här projektet har varit ett bra sätt att lära mig mer om webbutveckling. Jag har fått öva på att bygga en riktig hemsida och lärt mig mycket på vägen.
