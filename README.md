@@ -36,7 +36,7 @@ Tack till Hans för hjälp med Brands och Navbar i början av kursen.
 5. Lägga till fler interaktiva delar
 
 ## Tack till
-- Mina lärare som gav oss Figma-designen och hjälpte under projektet
+- Mina lärare som gav oss Figma-designen och hjälpte till under projektet och kursen.
 - Extra tack till Hans för vägledning när det kom till Brands och Navbar sektionerna i början av kursen.
 - Min kusin som hjälpte mig med JavaScript för FAQ-delen
 - Claude AI för Dark Mode funktionen i Javascript.
