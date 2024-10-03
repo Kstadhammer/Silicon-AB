@@ -1044,8 +1044,8 @@ box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(
     font-weight: 400;
     color: var(--color-gray-600);
     line-height: 160%; /* 22.4px */
-    margin-top: 54px;
-    margin-bottom: 54px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
 
 }
 
