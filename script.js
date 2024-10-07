@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const darkModeToggle = document.getElementById('darkmode-switch');
     const body = document.body;
 
-    // Kontrollera systempreferenser
+
     const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
 
     function setDarkMode(isDark) {
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Initiera baserat på lokal lagring eller systempreferens
+
     if (localStorage.getItem('darkMode') === 'enabled') {
         setDarkMode(true);
     } else if (localStorage.getItem('darkMode') === 'disabled') {
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('darkMode', this.checked ? 'enabled' : 'disabled');
     });
 
-    // Lyssna på ändringar i systempreferenser
+
     prefersDarkScheme.addListener((e) => {
         if (localStorage.getItem('darkMode') === null) {
             setDarkMode(e.matches);
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const icon = item.querySelector('i');
 
         question.addEventListener('click', () => {
-            // Växla synligheten för svaret
+            
             const isOpen = answer.style.display === 'block';
             answer.style.display = isOpen ? 'none' : 'block';
 
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     otherAnswer.style.display = 'none';
                     otherIcon.style.transform = 'rotate(0deg)';
                     otherIcon.style.backgroundColor = '';
-                    otherIcon.style.color = ''; // Återställ ikonens färg
+                    otherIcon.style.color = ''; 
                     otherIcon.style.borderRadius = '';
                 }
             });
